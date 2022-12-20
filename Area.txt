@@ -1,0 +1,14 @@
+import java.io.*;
+class Area
+{
+   public static void main(String args[])
+   {
+      int a,b,c,s,ar;
+      System.out.println("area of square having length "+a+" is:"+(a*a));
+       System.out.println("area of rectangle having length "+a+"and width"+b+" is:"+(a*b));
+      s=(a+b+c)/2;
+      ar=((s-a)*(s-b)*(s-c))^0.5;
+       System.out.println("area of triangle having sides "+a+","+b+","+c+" is:"+ar);
+   }
+}
+     
