@@ -1,0 +1,24 @@
+import java.io.*;
+class Pronicrnot
+{
+    public static void main(String args[])
+    {
+       int n;
+       Scanner s=new Scanner(System.in);
+       n=s.nextInt();
+       for(i=0;i<n;i++)
+       {
+          if((i*(i+1))==n)
+           {
+               c=c+1;
+               break;
+             }
+           else
+              c=o;
+        }
+      if(c!=0)
+         System.out.println(n+" is pronic number");
+      else
+         System.out.println(n+" is not pronic number");
+     }
+}
